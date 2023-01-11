@@ -1,7 +1,7 @@
 class Megaman {
 	constructor(game) {
 		this.game = game;
-		this.animator = new Animator(ASSET_MANAGER.getAsset("./Megaman.png"), 2, 0, 42, 35, 10, .175);
+		this.animator = new Animator(ASSET_MANAGER.getAsset("./megaman.png"), 2, 0, 42, 35, 10, .175);
 
 		this.x = 0;
 		this.y = 675;
